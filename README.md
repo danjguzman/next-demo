@@ -4,13 +4,12 @@
   <img src="screenshot.png" alt="Screenshot of the demo">
 </div>
 
+
 This is a mock-up of a Facility Management platform—though it’s flexible enough to work for any industry—built as a live demo project with React and Next.js to showcase my front-end development skills. It focuses on crafting reusable components, managing data with a state manager (like Zustand), and wrangling data from multiple sources—fetching, parsing, and blending it into clean, UI-ready states.
 
-The project is fully open—including all commits—so you’re welcome to follow along as I turn ideas into solid, working software. It’s still actively in development, so you might notice a few issues here and there until I get them sorted out.
+The project is fully open—including all commits—and you’re welcome to follow along as I turn ideas into solid, working software. It’s still actively in development, so you might notice a few issues here and there until I get them sorted out.
 
-Note that if you pull this to run locally, Mapbox may not work since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons (don't give out API keys to the world).
-
-*Note: if you pull this to run locally, Mapbox may not work since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons.*
+*Note: if you pull this to run locally, Mapbox may not work properly since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons (don't give out API keys to the world).*
 
 ## What’s Inside
 
