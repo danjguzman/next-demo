@@ -67,13 +67,13 @@ export default function Home() {
 						</div>
 					</div>
 
-					{/* Minimal Contents */}
-					<div className="calendar">
+					{/* Minimal Contents (in development) */}
+					{/*<div className="calendar">
 						<div>Quick News</div>
 						<div>
 							<Calendar value={new Date()} />
 						</div>
-					</div>
+					</div>*/}
 				</div>
 
 			</div>

@@ -82,3 +82,19 @@ export const useCustomerData = create<SitesWithClientsStore>((set) => ({
     sitesWithClients: getSitesWithClients(),
     setSitesWithClients: (sites) => set({ sitesWithClients: sites }),
 }));
+
+interface GlobalStore {
+    frontPageMapRef: null;
+    frontpageMapCoords: number[];
+    frontpageMapZoom: number;
+};
+
+export const useGlobalStore = create<GlobalStore>((set) => ({
+    frontPageMapRef: null,
+    frontpageMapCoords: [],
+    frontpageMapZoom: 3,
+    setCenterZoom: (lat: number, lng: number, zoom: number) => set({ 
+        frontpageMapCoords: [lat, lng],
+        frontpageMapZoom: zoom
+    }),
+}));
