@@ -7,14 +7,12 @@
     flex-direction: column;
     gap: 10px;
 
-    > .label {
-        font-size: 20px;
-        font-weight: bold;
-    }
-
     > .content {
         flex: 1;
+        background-color: #00000015;
+        color: #959595;
         overflow: auto;
+        border-radius: 8px;
 
         > table {
             width: 100%;
@@ -26,23 +24,28 @@
                 }
 
                 &.status {
-                    width: 75px;
+                    width: 100px;
                 }
 
                 span {
                     cursor: pointer;
-                    //margin: 5px;
                 }
             }
 
             > thead {
+                position: sticky;
+                top: 0;
+                background-color: #151515;
+                z-index: 1;
 
                 > tr {
                     height: 40px;
-                    border-bottom: 1px dashed #202020;
 
                     > td {
                         font-weight: bold;
+                        cursor: pointer;
+                        padding: 0px 10px 0px 10px;
+                        box-sizing: border-box;
                     }
                 }
             }
@@ -52,9 +55,14 @@
                 > tr {
                     height: 40px;
                     cursor: pointer;
+                    transition: 0.25s background-color;
+
+                    &:hover {
+                        background-color: #FFFFFF10;
+                    }
 
                     &:not(:last-child) {
-                        border-bottom: 1px dashed #202020;
+                        border-bottom: 1px dashed #353535;
                     }
 
                     &.hover {
@@ -62,6 +70,18 @@
                     }
 
                     > td {
+                        padding: 0px 10px 0px 10px;
+
+                        &.site {
+                            
+                            &:hover {
+                                color: orange;
+                            }
+
+                            > .marker {
+                                color: orange;
+                            }
+                        }
                     }
                 }
             }

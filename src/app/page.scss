@@ -239,15 +239,25 @@
 					}
 				}
 
-				> .sites-map {
+				> .sites-map-list {
 					flex: 1;
-					border-radius: 8px;
+					background: linear-gradient(to bottom, #303030, #202020);
 					border: 1px solid #282828;
-					overflow: hidden;
-				}
+					padding: 10px;
+					border-radius: 8px;
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
 
-				> .sites-list {
-					flex: 1;
+					> .sites-map {
+						flex: 1;
+						border-radius: 8px;
+						overflow: hidden;
+					}
+
+					> .sites-list {
+						flex: 1;
+					}
 				}
 			}
 	

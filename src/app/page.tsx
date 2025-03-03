@@ -1,8 +1,6 @@
 import { MapsFrontPage } from './components/Maps/FrontPage';
 import { SiteList } from './components/SiteList';
-import { Card } from '@core/components/Cards';
-import { mockHomePageSummary } from '@core/_server-data';
-import { CardOpenWorkOrders } from '@components/Cards';
+import { CardOpenWorkOrders, CardBillingSummary, CardPersonnelClockedIn } from '@components/Cards';
 import Calendar from 'react-calendar';
 import './page.scss';
 //import 'react-calendar/dist/Calendar.css';
@@ -60,15 +58,13 @@ export default function Home() {
 					<div className="main">
 						<div className="bubbles">
 							<CardOpenWorkOrders />
-							{/*<Card icon="far fa-list-alt" label="Open Work Orders" value={mockHomePageSummary.openWorkOrders} flip={true} />
-							<Card icon="far fa-money-bill-alt" label="Billing Summary" value={mockHomePageSummary.billingSummary} valueFormat="USD" />
-							<Card icon="far fa-users" label="Personnel On Duty" value={mockHomePageSummary.personnelOnDuty} />*/}
+							<CardBillingSummary />
+							<CardPersonnelClockedIn />
 						</div>
-
-{/* wrap maps section in a div to make it fancier....... */}
-
-						<div className="sites-map"><MapsFrontPage /></div>
-						<div className="sites-list"><SiteList /></div>
+						<div className="sites-map-list">
+							<div className="sites-map"><MapsFrontPage /></div>
+							<div className="sites-list"><SiteList /></div>
+						</div>
 					</div>
 
 					{/* Minimal Contents */}
