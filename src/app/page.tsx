@@ -80,7 +80,9 @@ export default function Home() {
 
 			{/* Foot */}
 			<div className="foot">
-				<div className="recent">Recent Navigation</div>
+				<div className="recent">
+					Demo App is currently under live development. Check <a href="https://github.com/danjguzman/next-demo" target="_blank" rel="noopener noreferrer">https://github.com/danjguzman/next-demo</a> for frequent updates.
+				</div>
 			</div>
 		</div>
 	);

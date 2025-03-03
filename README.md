@@ -6,6 +6,16 @@ The project is fully open—including all commits—so you’re welcome to follo
 
 Note that if you pull this to run locally, Mapbox may not work since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons (don't give out API keys to the world).
 
+*Note: if you pull this to run locally, Mapbox may not work since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons.*
+
+## What’s Inside
+
+This demo includes some core features you’d typically find in platforms similar to this:
+
+- A dynamically generated table with sorting, making it easy to organize and explore data.
+- A Mapbox-powered map with custom markers to visualize locations or assets.
+- Tiles that update with live data, showing real-time info in a clean, modular way.
+
 ## Installation
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).

@@ -276,11 +276,22 @@
 		background: linear-gradient(to bottom, #303030, #202020);
 		border: 1px solid #282828;
 		border-radius: 8px 8px 0px 0px;
+		color: #707070;
 		display: flex;
 		align-items: center;
+		justify-content: center;
 
 		> .recent {
 			padding: 10px;
+
+			> a {
+				color: orange;
+				transition: 0.3s color;
+
+				&:hover {
+					color: yellow;
+				}
+			}
 		}
 	}
 }
