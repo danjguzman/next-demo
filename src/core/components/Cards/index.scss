@@ -1,0 +1,58 @@
+.card {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(to bottom, #303030, #202020);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #282828;
+    display: flex;
+    flex-direction: column;
+
+    //&:not(:last-child):after {
+    //	content: '';
+    //	position: absolute;
+    //	width: 1px;
+    //	height: 100%;
+    //	top: 0px;
+    //	right: -11px;
+    //	border: 1px dashed #202020;
+    //}
+}
+
+.card-icon {
+    font-size: 30px;
+    color: #656565;
+}
+
+.card-label {
+    font-weight: bold;
+    color: #656565;
+
+    > span {
+        font-size: 12px;
+        font-weight: bold;
+        color: #656565;
+    }
+}
+
+.card-value {
+    font-size: 35px;
+    font-weight: bold;
+    color: orange;
+}
+
+.card-flip {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: dodgerblue;
+    background-color: #FFFFFF10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

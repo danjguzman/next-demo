@@ -5,7 +5,7 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to bottom, #151515, #050505);
+	background: linear-gradient(to bottom, #151515, #101010);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -25,31 +25,40 @@
 			background: linear-gradient(to bottom, #303030, #202020);
 			padding: 10px;
 			border-radius: 0px 0px 8px 8px;
-			outline: 1px solid #282828;
+			border: 1px solid #282828;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			gap: var(--item-gap);
-
-			> .context {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				gap: 20px;
-			}
-
+			
 			> .navigation {
 				flex: 1;
 				font-size: 14px;
 				font-weight: bold;
 				display: flex;
 				align-items: center;
-				justify-content: center;
-				gap: 40px;
+				gap: 10px;
 
 				> .item {
+					height: 40px;
+					background-color: #00000025;
+					padding: 4px 6px 4px 6px;
+					border-radius: 4px;
 					cursor: pointer;
+					display: flex;
+					align-items: center;
+
+					> i {
+						margin: 4px;
+					}
 				}
+			}
+
+			> .context {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 20px;
 			}
 
 			> .actions {
@@ -176,7 +185,7 @@
 						background: linear-gradient(to bottom, #303030, #202020);
 						border-radius: 8px;
 						padding: 20px;
-						outline: 1px solid #282828;
+						border: 1px solid #282828;
 						display: flex;
 						flex-direction: column;
 
@@ -232,6 +241,9 @@
 
 				> .sites-map {
 					flex: 1;
+					border-radius: 8px;
+					border: 1px solid #282828;
+					overflow: hidden;
 				}
 
 				> .sites-list {
@@ -252,7 +264,7 @@
 		width: var(--page-width);
 		height: 40px;
 		background: linear-gradient(to bottom, #303030, #202020);
-		outline: 1px solid #282828;
+		border: 1px solid #282828;
 		border-radius: 8px 8px 0px 0px;
 		display: flex;
 		align-items: center;
