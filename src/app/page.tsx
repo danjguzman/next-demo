@@ -1,7 +1,7 @@
-import { MapsFrontPage } from './components/Maps/FrontPage';
-import { SiteList } from './components/SiteList';
+import { MapsFrontPage } from '@components/Maps/FrontPage';
+import { SiteList } from '@components/SiteList';
 import { CardOpenWorkOrders, CardBillingSummary, CardPersonnelClockedIn } from '@components/Cards';
-import Calendar from 'react-calendar';
+//import Calendar from 'react-calendar';
 import './page.scss';
 //import 'react-calendar/dist/Calendar.css';
 

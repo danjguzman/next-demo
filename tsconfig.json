@@ -23,8 +23,13 @@
 			}
 		],
 		"paths": {
-			"@components/*": ["./src/app/components/*"],
+			"@app/*": ["./src/app/*"],
+			"@components/*": ["./src/components/*"],
 			"@core/*": ["./src/core/*"],
+			"@services/*": ["./src/services/*"],
+			"@stores/*": ["./src/stores/*"],
+			"@types/*": ["./src/types/*"],
+			"@utils/*": ["./src/utils/*"],
 		}
 	},
 	"include": [
