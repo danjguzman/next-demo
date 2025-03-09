@@ -253,19 +253,48 @@
 						flex: 1;
 						border-radius: 8px;
 						overflow: hidden;
+						display: flex;
+						gap: 10px;
+
+						> .map {
+							flex: 1;
+						}
+
+						> .viewer {
+							width: 500px;
+							background: linear-gradient(to bottom, #303030, #202020);
+							//border: 1px solid #282828;
+						}
 					}
 
 					> .sites-list {
-						flex: 1;
+						//flex: 1;
+						height: 300px;
+						border-radius: 8px;
+						overflow: hidden;
 					}
 				}
 			}
 	
-			> .calendar {
-				width: 400px;
+			> .right {
+				width: 500px;
 				display: flex;
 				flex-direction: column;
-				background-color: #252525;
+				gap: var(--item-gap);
+
+				> .top {
+					height: 150px;
+					background: linear-gradient(to bottom, #303030, #202020);
+					border: 1px solid #282828;
+					border-radius: 8px;
+				}
+
+				> .bottom {
+					flex: 1;
+					background: linear-gradient(to bottom, #303030, #202020);
+					border: 1px solid #282828;
+					border-radius: 8px;
+				}
 			}
 		}
 	}
@@ -283,6 +312,10 @@
 
 		> .recent {
 			padding: 10px;
+			max-width: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
 
 			> a {
 				color: orange;

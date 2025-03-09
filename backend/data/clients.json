@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "NEC Corporation",
+        "active": true
+    },
+    {
+        "id": 2,
+        "name": "Nintendo Co., Ltd.",
+        "active": true
+    },
+    {
+        "id": 3,
+        "name": "Sega Corporation!",
+        "active": true
+    },
+    {
+        "id": 4,
+        "name": "Sega Of America, Inc.",
+        "active": true
+    },
+    {
+        "id": 5,
+        "name": "Sony Interactive Entertainment Inc.",
+        "active": true
+    },
+    {
+        "id": 6,
+        "name": "Sony Interactive Entertainment LLC",
+        "active": true
+    },
+    {
+        "id": 7,
+        "name": "Xbox Game Studios",
+        "active": true
+    },
+    {
+        "id": 8,
+        "name": "Atari, Inc.",
+        "active": true
+    },
+    {
+        "id": 9,
+        "name": "Electronic Arts Inc.",
+        "active": true
+    },
+    {
+        "id": 10,
+        "name": "Ubisoft Entertainment SA",
+        "active": true
+    },
+    {
+        "id": 11,
+        "name": "Sunsoft",
+        "active": true
+    },
+    {
+        "id": 12,
+        "name": "Capcom Co., Ltd.",
+        "active": true
+    },
+    {
+        "id": 13,
+        "name": "Konami Digital Entertainment Co., Ltd.",
+        "active": true
+    },
+    {
+        "id": 14,
+        "name": "Ubisoft Montreal",
+        "active": true
+    }
+]

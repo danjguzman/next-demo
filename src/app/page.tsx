@@ -2,12 +2,11 @@ import { MapsFrontPage } from '@components/feature/Map';
 import { SiteList } from '@components/feature/SiteList';
 import { CardOpenWorkOrders, CardBillingSummary, CardPersonnelClockedIn } from '@components/feature/Cards';
 import './page.scss';
-//import 'react-calendar/dist/Calendar.css';
 
 export default function Home() {
 
 	return (
-		<div className="dashboard">
+		<main className="dashboard">
 
 			{/* Head: Context, Navigation, Quick Actions & Profile */}
 			<div className="head">
@@ -15,9 +14,9 @@ export default function Home() {
 					{/*<div className="icon"><i className="fa fa-clipboard" /></div>*/}
 					<div className="navigation">
 						<div className="item"><i className="fa fa-home" /> Home</div>
-						<div className="item"><i className="fa fa-clipboard" /> Work Orders</div>
+						{/*<div className="item"><i className="fa fa-clipboard" /> Work Orders</div>
 						<div className="item"><i className="fa fa-user-friends" /> Personnel</div>
-						<div className="item"><i className="fa fa-file-alt" /> Reports</div>
+						<div className="item"><i className="fa fa-file-alt" /> Reports</div>*/}
 					</div>
 					<div className="context">
 						<div>Clients</div>
@@ -61,18 +60,20 @@ export default function Home() {
 							<CardPersonnelClockedIn />
 						</div>
 						<div className="sites-map-list">
-							<div className="sites-map"><MapsFrontPage /></div>
+							<div className="sites-map">
+								<div className="map"><MapsFrontPage /></div>
+								{/*<div className="viewer">123</div>*/}
+							</div>
 							<div className="sites-list"><SiteList /></div>
 						</div>
 					</div>
 
-					{/* Minimal Contents (in development) */}
-					{/*<div className="calendar">
-						<div>Quick News</div>
-						<div>
-							<Calendar value={new Date()} />
-						</div>
+					{/* Side Contents */}
+					{/*<div className="right">
+						<div className="top"></div>
+						<div className="bottom"></div>
 					</div>*/}
+
 				</div>
 
 			</div>
@@ -80,9 +81,10 @@ export default function Home() {
 			{/* Foot */}
 			<div className="foot">
 				<div className="recent">
-					Demo App is currently under live development. Check <a href="https://github.com/danjguzman/next-demo" target="_blank" rel="noopener noreferrer">https://github.com/danjguzman/next-demo</a> for frequent updates.
+					Demo App is currently under live development. Check <a href="https://github.com/danjguzman/next-demo" target="_blank" rel="noopener noreferrer">https://github.com/danjguzman/next-demo</a> for frequent updates. <i>(Not yet responsive.)</i>
 				</div>
 			</div>
-		</div>
+			
+		</main>
 	);
 }

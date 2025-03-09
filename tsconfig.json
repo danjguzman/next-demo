@@ -25,6 +25,14 @@
 		"paths": {
 			"@components/*": ["./src/components/*"],
 			"@core/*": ["./src/core/*"],
+			"@services/*": ["./src/services/*"],
+			"@services": ["./src/services/index.ts"],
+			"@stores/*": ["./src/stores/*"],
+			"@stores": ["./src/stores/index.ts"],
+			"@types/*": ["./src/types/*"],
+			"@types": ["./src/types/index.ts"],
+			"@utils/*": ["./src/utils/*"],
+			"@utils": ["./src/utils/index.ts"]
 		}
 	},
 	"include": [

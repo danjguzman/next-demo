@@ -9,6 +9,7 @@ interface CardProps {
     valueFormat?: string;
     flip?: boolean;
     children?: React.ReactNode;
+    onClick?: ()=>void;
 }
 
 interface CardLabelProps {
@@ -58,10 +59,10 @@ const numberFormatter = new Intl.NumberFormat('en-US', {
 
 /* Main Card Component */
 export const Card =(props: CardProps)=> {
-    const { icon, label, value, valueFormat, flip, children } = props;
+    const { icon, label, value, valueFormat, flip, children, onClick } = props;
 
     return (
-        <div className="card">
+        <div className="card" onClick={onClick}>
             {children ? children : 
                 <>
                     {/* Default Layout From Data Only */}

@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Card } from '@core/components/Cards';
+import { Card } from '@components/global/Cards';
 import { useHomePageSummaryStore } from '@core/stores';
 
 export const CardOpenWorkOrders =()=> {

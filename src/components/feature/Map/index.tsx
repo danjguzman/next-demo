@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef } from 'react';
 import { useCustomerData } from '@core/stores';
+import { setMapInstance } from './mapManager';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -74,11 +75,22 @@ export const MapsFrontPage: React.FC = () => {
                 [-125.00165, 24.9493], // Southwest coordinates of the US
                 [-66.9326, 49.5904],   // Northeast coordinates of the US
             ],
-            style: 'mapbox://styles/danjguzman/cm7ste3xi007k01st0lu35r83',
+            style: 'mapbox://styles/danjguzman/cm7ste3xi007k01st0lu35r83',    
+            projection: 'mercator', // Flat map projection
+            pitch: 35,
         });
 
         /* Add Pins To Mapbox */
         mapRef.current.on('load', ()=>{
+
+            /* Set Defaults */
+            mapRef.current?.flyTo({
+                center: [-95.7129, 37.0902],
+                pitch: 35,
+                zoom: 3,          // Optional: Animate zoom too
+                bearing: 0,       // Optional: Animate rotation
+                duration: 2000,
+            });
 
             /* Generate SVG */
             const svgString = generateMarkerSVG(markerOptions);
@@ -130,11 +142,16 @@ export const MapsFrontPage: React.FC = () => {
                     mapRef.current?.on('mouseleave', 'markers-layer', ()=>{ if (mapRef.current) mapRef.current.getCanvas().style.cursor = ''; });
 
                 });
+
+                /* Make Globally Accessible By Import In Map Utility */
+                setMapInstance(mapRef.current);
+                
             });
         });
 
         return () => {
             mapRef.current?.remove();
+            setMapInstance(null);
         };
     }, [sitesWithClients]);
 

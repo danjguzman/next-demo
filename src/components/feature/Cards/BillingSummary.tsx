@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Card, CardIcon, CardLabel, CardValue } from '@core/components/Cards';
+import { Card, CardIcon, CardLabel, CardValue } from '@components/global/Cards';
 import { useHomePageSummaryStore } from '@core/stores';
 
 export const CardBillingSummary =()=> {
