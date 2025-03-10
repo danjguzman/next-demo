@@ -1,4 +1,4 @@
-Preview video focused on creating a smooth Mapbox experience [https://youtu.be/FG-YPWj59u0](https://youtu.be/FG-YPWj59u0){:target="_blank"}
+Preview video focused on creating a smooth Mapbox experience: https://youtu.be/FG-YPWj59u0
 
 ## About
 
@@ -41,10 +41,10 @@ This demo includes some core features you’d typically find in platforms simila
 
 The focus is on creating a Desktop Application style UI in the web browser, which allows users to customize their workspace. Think Photoshop or Blender.
 
-[https://www.youtube.com/watch?v=L8ATQXBckb4](https://www.youtube.com/watch?v=L8ATQXBckb4){:target="_blank"}
+https://www.youtube.com/watch?v=L8ATQXBckb4
 
 <b>Fancy Loader</b>
 
 Using CSS Animations, Transitions and JavaScript, this loader reacts to each file that's loaded into memory, and when complete, it transitions into the Login Screen.
 
-[https://www.youtube.com/watch?v=H-QKZUdfoWY](https://www.youtube.com/watch?v=H-QKZUdfoWY){:target="_blank"}
+https://www.youtube.com/watch?v=H-QKZUdfoWY
