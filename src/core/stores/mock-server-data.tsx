@@ -146,8 +146,8 @@ export const mockDataSites: Site[] = [
         clockedIn: 10,
         billing: 66589,
         active: true,
-        address: '1-1-1 Nishi-Shinagawa, Shinagawa-ku, Tokyo 141-0033, Japan', // Sega Corporation HQ
-        coords: { lat: 35.6201, lng: 139.7378 },
+        address: '1 Chome-1-1 Nishishinagawa, Shinagawa City, Tokyo 141-0033, Japan',
+        coords: { 'lat': 35.61487964458506, 'lng': 139.73104859544063 },
     },
     {
         id: 4,

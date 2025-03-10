@@ -6,7 +6,7 @@ import './page.scss';
 export default function Home() {
 
 	return (
-		<main className="dashboard">
+		<div className="dashboard">
 
 			{/* Head: Context, Navigation, Quick Actions & Profile */}
 			<div className="head">
@@ -84,7 +84,10 @@ export default function Home() {
 					Demo App is currently under live development. Check <a href="https://github.com/danjguzman/next-demo" target="_blank" rel="noopener noreferrer">https://github.com/danjguzman/next-demo</a> for frequent updates. <i>(Not yet responsive.)</i>
 				</div>
 			</div>
+
+			{/* Color Overlay */}
+			<div className="color-overlay"></div>
 			
-		</main>
+		</div>
 	);
 }

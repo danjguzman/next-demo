@@ -66,6 +66,9 @@ export const MapsFrontPage: React.FC = () => {
     /* Mapbox Init */
     useEffect(() => {
 
+        /* Stop Rendering If No TOKEN */
+        if (!process.env.NEXT_PUBLIC_MAPBOX_TOKEN_PUBLIC2) return;
+
         /* Mapbox Init */
         mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN_PUBLIC;
         mapRef.current = new mapboxgl.Map({

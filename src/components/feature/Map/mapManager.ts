@@ -1,6 +1,6 @@
 let mapInstance: mapboxgl.Map | null = null;
 
-export const setMapInstance = (map: mapboxgl.Map) => {
+export const setMapInstance = (map: mapboxgl.Map | null) => {
     mapInstance = map;
 };
 
