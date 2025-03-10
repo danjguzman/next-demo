@@ -34,3 +34,17 @@ This demo includes some core features you’d typically find in platforms simila
 <div style="text-align: center;">
   <img src="screenshot2.png" alt="Screenshot of the demo">
 </div>
+
+## Other Video Demos Created By Me
+
+<b>React Game Develpment Kit (in progress).</b> 
+
+The focus is on creating a Desktop Application style UI in the web browser, which allows users to customize their workspace. Think Photoshop or Blender.
+
+https://www.youtube.com/watch?v=L8ATQXBckb4
+
+<b>Fancy Loader</b>
+
+Using CSS Animations, Transitions and JavaScript, this loader reacts to each file that's loaded into memory, and when complete, it transitions into the Login Screen.
+
+https://www.youtube.com/watch?v=H-QKZUdfoWY
