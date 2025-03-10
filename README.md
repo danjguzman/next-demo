@@ -1,4 +1,4 @@
-Video demo focusing on creating a smooth Mapbox experience: https://youtu.be/FG-YPWj59u0
+Preview video focused on creating a smooth Mapbox experience: https://youtu.be/FG-YPWj59u0
 
 ## About
 
