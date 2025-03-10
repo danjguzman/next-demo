@@ -53,4 +53,4 @@ https://www.youtube.com/watch?v=H-QKZUdfoWY
 
 I am a Senior Front End Developer with over 10 years of experience building scalable, interactive web apps using React, Next.js, and TypeScript. I love crafting fast, user-friendly UIs with smooth CSS animations, transitions, and micro-interactions—like subtle hovers or snappy toggles—that bring designs to life. I’ve worked remotely with designers to turn complex ideas into pixel-perfect, performant interfaces, always chasing that sweet spot between clean code and a great user experience. I’m hooked on tough challenges and constantly leveling up my front-end skills.
 
-If interested, find me on LinkedIn: <a href="https://www.linkedin.com/in/danjguzman" target="_new">https://www.linkedin.com/in/danjguzman</a>
+If interested, find me on LinkedIn: <a href="https://www.linkedin.com/in/danjguzman" target="_blank">https://www.linkedin.com/in/danjguzman</a>
