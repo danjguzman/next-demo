@@ -4,8 +4,6 @@ This is a mock-up of a Workforce Management platform—though it’s flexible en
 
 The project is fully open and you’re welcome to follow along as I turn ideas into solid, working software. It’s still actively in development, so you might notice a few issues here and there until I get them sorted out.
 
-*Note: If you pull this to run locally, Mapbox may not work properly since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons (don't give out API keys to the world).*
-
 ## What’s Inside
 
 This demo includes some core features you’d typically find in platforms similar to this:
@@ -19,6 +17,8 @@ This demo includes some core features you’d typically find in platforms simila
 
 - This is focused  on showcasing my code—live application demo coming soon.
 - Demo coded by me, not AI.
+
+*Note: If you pull this to run locally, Mapbox may not work properly since it requires a valid token to function, which I’ve omitted from my commits for obvious reasons (don't give out API keys to the world). Defaults to a blank section for Mapbox.*
 
 <div style="text-align: center;">
   <img src="screenshot.png" alt="Screenshot of the demo">
