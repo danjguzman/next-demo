@@ -1,6 +1,6 @@
-## About
+Video demo focusing on creating a smooth Mapbox experience: https://youtu.be/FG-YPWj59u0
 
-Video demo: https://youtu.be/FG-YPWj59u0
+## About
 
 This is a mock-up of a Workforce Management platform—though it’s flexible enough to work for any industry—built as a demo project with React and Next.js to showcase my front-end coding skills. It focuses on crafting reusable components, managing data with a state manager like Redux Toolkit, and wrangling data from multiple sources—fetching, parsing, and blending it into clean, UI-ready states.
 
