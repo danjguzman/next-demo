@@ -48,3 +48,9 @@ https://www.youtube.com/watch?v=L8ATQXBckb4
 Using CSS Animations, Transitions and JavaScript, this loader reacts to each file that's loaded into memory, and when complete, it transitions into the Login Screen.
 
 https://www.youtube.com/watch?v=H-QKZUdfoWY
+
+## About Daniel Guzman (available for hire)
+
+I am a Senior Front End Developer with over 10 years of experience building scalable, interactive web apps using React, Next.js, and TypeScript. I love crafting fast, user-friendly UIs with smooth CSS animations, transitions, and micro-interactions—like subtle hovers or snappy toggles—that bring designs to life. I’ve worked remotely with designers to turn complex ideas into pixel-perfect, performant interfaces, always chasing that sweet spot between clean code and a great user experience. I’m hooked on tough challenges and constantly leveling up my front-end skills.
+
+If interested, find me on LinkedIn: https://www.linkedin.com/in/danjguzman/
