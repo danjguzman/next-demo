@@ -35,7 +35,7 @@ This demo includes some core features you’d typically find in platforms simila
   <img src="screenshot2.png" alt="Screenshot of the demo">
 </div>
 
-## Other Video Demos Created By Me
+## Other Project Demos Created By Me
 
 <b>React Game Develpment Kit (in progress).</b> 
 
