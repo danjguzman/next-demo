@@ -1,42 +1,20 @@
 "use client"
 import { createSlice } from '@reduxjs/toolkit';
 import { RootState } from '@stores';
-import { fetchData } from '@utils';
-import { SiteTypes } from '@types';
-
-/* Fetch Initial Data */
-let initialState: SiteTypes[] = [];
-try {
-  
-    initialState = await fetchData('sites');
-
-} catch (error) {
-
-    console.error("Error fetching:", error);
-    initialState = [];
-
-};
+import { ISites } from '@types';
 
 /* Create Slice */
-const slice = createSlice({
+const sitesSlice = createSlice({
     name: 'sites',
-    initialState,
+    initialState: [] as ISites[],
     reducers: {
-
-        /* Add Data */
-        addSite: (state, action: { payload: SiteTypes }) => {
-            state.push(action.payload);
+        setStoreSites: (_, action: { payload: ISites[] }) => {
+            return action.payload;
         },
-
-        /* Toggle Active Status */
-        toggleActive: (state, action: { payload: number }) => {
-            const store = state.find(c => c.id === action.payload);
-            if (store) store.active = !store.active;
-        }
-    }
+    },
 });
 
 /* Export Actions And Reducer */
 export const getSites = (state: RootState) => state.sites;
-export const { addSite, toggleActive } = slice.actions;
-export default slice.reducer;
+export const { setStoreSites } = sitesSlice.actions;
+export default sitesSlice.reducer;

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "category": "Building Maintenance"
+    },
+    {
+        "id": 2,
+        "category": "Janitorial Service"
+    },
+    {
+        "id": 3,
+        "category": "IT Support"
+    },
+    {
+        "id": 4,
+        "category": "HVAC Repair"
+    },
+    {
+        "id": 5,
+        "category": "Electrical Work"
+    },
+    {
+        "id": 6,
+        "category": "Plumbing Service"
+    },
+    {
+        "id": 7,
+        "category": "Security System Maintenance"
+    },
+    {
+        "id": 8,
+        "category": "Equipment Installation"
+    },
+    {
+        "id": 9,
+        "category": "Network Maintenance"
+    },
+    {
+        "id": 10,
+        "category": "Facility Inspection"
+    }
+]

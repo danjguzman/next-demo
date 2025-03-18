@@ -121,7 +121,7 @@
 
         > table {
             width: 100%;
-            //table-layout: fixed;
+            table-layout: fixed;
             border-collapse: collapse;
             
             td {
@@ -180,7 +180,7 @@
                     > td {
                         padding: 0px 10px 0px 10px;
 
-                        &.site {
+                        &.site, &.location {
                             
                             &:hover {
                                 color: orange;

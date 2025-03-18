@@ -10,7 +10,13 @@
         "address": "5-7-1 Shiba, Minato-ku, Tokyo 108-8001, Japan",
         "coords": { "lat": 35.6586, "lng": 139.7454 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 2,
@@ -23,7 +29,13 @@
         "address": "11-1 Kamitoba Hokotate-cho, Minami-ku, Kyoto 601-8501, Japan",
         "coords": { "lat": 34.9669, "lng": 135.7556 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 3,
@@ -36,7 +48,13 @@
         "address": "1 Chome-1-1 Nishishinagawa, Shinagawa City, Tokyo 141-0033, Japan",
         "coords": { "lat": 35.61487964458506, "lng": 139.73104859544063 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 4,
@@ -49,7 +67,13 @@
         "address": "6400 Oak Canyon, Suite 100, Irvine, CA 92618, USA",
         "coords": { "lat": 33.6709, "lng": -117.7694 },
         "locationLat": 37.0902,
-        "locationLng": -95.7129
+        "locationLng": -95.7129,
+        "countryCoords": {
+            "lngSouthWest": -125.0017,
+            "latSouthWest": 24.3963,
+            "lngNorthEast": -66.9346,
+            "latNorthEast": 49.3844
+        }
     },
     {
         "id": 5,
@@ -62,7 +86,13 @@
         "address": "255 Shoreline Drive, Redwood City, CA 94065, USA",
         "coords": { "lat": 37.522, "lng": -122.259 },
         "locationLat": 37.0902,
-        "locationLng": -95.7129
+        "locationLng": -95.7129,
+        "countryCoords": {
+            "lngSouthWest": -125.0017,
+            "latSouthWest": 24.3963,
+            "lngNorthEast": -66.9346,
+            "latNorthEast": 49.3844
+        }
     },
     {
         "id": 6,
@@ -75,7 +105,13 @@
         "address": "1-7-1 Konan, Minato-ku, Tokyo 108-0075, Japan",
         "coords": { "lat": 35.627, "lng": 139.7425 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 7,
@@ -88,7 +124,13 @@
         "address": "2207 Bridgepointe Pkwy, San Mateo, CA 94404, USA",
         "coords": { "lat": 37.561, "lng": -122.279 },
         "locationLat": 37.0902,
-        "locationLng": -95.7129
+        "locationLng": -95.7129,
+        "countryCoords": {
+            "lngSouthWest": -125.0017,
+            "latSouthWest": 24.3963,
+            "lngNorthEast": -66.9346,
+            "latNorthEast": 49.3844
+        }
     },
     {
         "id": 8,
@@ -101,7 +143,13 @@
         "address": "1 Microsoft Way, Redmond, WA 98052, USA",
         "coords": { "lat": 47.6396, "lng": -122.1306 },
         "locationLat": 37.0902,
-        "locationLng": -95.7129
+        "locationLng": -95.7129,
+        "countryCoords": {
+            "lngSouthWest": -125.0017,
+            "latSouthWest": 24.3963,
+            "lngNorthEast": -66.9346,
+            "latNorthEast": 49.3844
+        }
     },
     {
         "id": 9,
@@ -114,7 +162,13 @@
         "address": "119 West 24th Street, New York, NY 10011, USA",
         "coords": { "lat": 40.7439, "lng": -73.993 },
         "locationLat": 37.0902,
-        "locationLng": -95.7129
+        "locationLng": -95.7129,
+        "countryCoords": {
+            "lngSouthWest": -125.0017,
+            "latSouthWest": 24.3963,
+            "lngNorthEast": -66.9346,
+            "latNorthEast": 49.3844
+        }
     },
     {
         "id": 10,
@@ -127,7 +181,13 @@
         "address": "209 Redwood Shores Pkwy, Redwood City, CA 94065, USA",
         "coords": { "lat": 37.5228, "lng": -122.2561 },
         "locationLat": 37.0902,
-        "locationLng": -95.7129
+        "locationLng": -95.7129,
+        "countryCoords": {
+            "lngSouthWest": -125.0017,
+            "latSouthWest": 24.3963,
+            "lngNorthEast": -66.9346,
+            "latNorthEast": 49.3844
+        }
     },
     {
         "id": 11,
@@ -140,7 +200,13 @@
         "address": "28 Rue Armand Carrel, 93100 Montreuil, France",
         "coords": { "lat": 48.864, "lng": 2.4433 },
         "locationLat": 46.6034,
-        "locationLng": 1.8883
+        "locationLng": 1.8883,
+        "countryCoords": {
+            "lngSouthWest": -5.1422,
+            "latSouthWest": 41.3337,
+            "lngNorthEast": 9.5616,
+            "latNorthEast": 51.1242
+        }
     },
     {
         "id": 12,
@@ -153,7 +219,13 @@
         "address": "1-1-1 Sakae, Naka-ku, Nagoya, Aichi 460-0008, Japan",
         "coords": { "lat": 35.1709, "lng": 136.9086 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 13,
@@ -166,7 +238,13 @@
         "address": "2-4-1 Chuo-ku, Osaka 540-8511, Japan",
         "coords": { "lat": 34.6863, "lng": 135.5142 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 14,
@@ -179,7 +257,13 @@
         "address": "9-7-2 Akasaka, Minato-ku, Tokyo 107-8324, Japan",
         "coords": { "lat": 35.6716, "lng": 139.7352 },
         "locationLat": 36.2048,
-        "locationLng": 138.2529
+        "locationLng": 138.2529,
+        "countryCoords": {
+            "lngSouthWest": 122.93,
+            "latSouthWest": 24.45,
+            "lngNorthEast": 145.82,
+            "latNorthEast": 45.56
+        }
     },
     {
         "id": 15,
@@ -192,6 +276,12 @@
         "address": "5505 boulevard St-Laurent, #2000, Montreal, Quebec, H2T 1S6, Canada",
         "coords": { "lat": 45.5267, "lng": -73.595 },
         "locationLat": 56.1304,
-        "locationLng": -106.3468
+        "locationLng": -106.3468,
+        "countryCoords": {
+            "lngSouthWest": -141.0,
+            "latSouthWest": 41.6766,
+            "lngNorthEast": -52.6363,
+            "latNorthEast": 83.1139
+        }
     }
 ]

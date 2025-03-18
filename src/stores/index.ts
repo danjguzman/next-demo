@@ -1,14 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
 import clientReducer from '@stores/slices/clients';
 import sitesReducer from '@stores/slices/sites';
-import globalReducer from '@stores/slices/global';
+import workOrdersReducer from '@stores/slices/work-orders'
 
 /* Configure Stores */
 const store = configureStore({
     reducer: {
         clients: clientReducer,
         sites: sitesReducer,
-        global: globalReducer
+        workOrders: workOrdersReducer,
     }
 });
 

@@ -73,6 +73,7 @@ export const MapsFrontPage: React.FC = () => {
         mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN_PUBLIC;
         mapRef.current = new mapboxgl.Map({
             container: mapContainerRef.current as unknown as HTMLElement,
+            pitch: 35,
             zoom: 3,
             bounds: [
                 [-125.00165, 24.9493], // Southwest coordinates of the US
@@ -80,7 +81,6 @@ export const MapsFrontPage: React.FC = () => {
             ],
             style: 'mapbox://styles/danjguzman/cm7ste3xi007k01st0lu35r83',    
             projection: 'mercator', // Flat map projection
-            pitch: 35,
         });
 
         /* Add Pins To Mapbox */
@@ -90,7 +90,7 @@ export const MapsFrontPage: React.FC = () => {
             mapRef.current?.flyTo({
                 center: [-95.7129, 37.0902],
                 pitch: 35,
-                zoom: 3,          // Optional: Animate zoom too
+                zoom: 3,          // Optional: Animate zoom
                 bearing: 0,       // Optional: Animate rotation
                 duration: 2000,
             });

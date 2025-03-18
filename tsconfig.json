@@ -23,6 +23,7 @@
 			}
 		],
 		"paths": {
+			"@assets/*": ["./src/assets/*"],
 			"@components/*": ["./src/components/*"],
 			"@core/*": ["./src/core/*"],
 			"@services/*": ["./src/services/*"],

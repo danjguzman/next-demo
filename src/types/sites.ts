@@ -1,4 +1,4 @@
-export interface SiteTypes {
+export interface ISites {
     id: number;
     clientId: number;
     name: string;
@@ -11,12 +11,18 @@ export interface SiteTypes {
         lat: number;
         lng: number;
     };
+    countryCoords: {
+        lngSouthWest: number;
+        latSouthWest: number;        
+        lngNorthEast: number;
+        latNorthEast: number;
+    };
     locationLat: number;
     locationLng: number;
 };
 
-export interface SiteClientsTypes extends SiteTypes {
-    clientName: string;
-    clientActive: boolean;
+export interface ISiteClients extends ISites {
+    clientName?: string;
+    clientActive?: boolean;
 };
 
