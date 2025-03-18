@@ -1,6 +1,12 @@
-Preview video focused on creating a smooth Mapbox experience: https://youtu.be/FG-YPWj59u0
+## About Daniel Guzman (available for hire)
 
-## About
+I am a Senior Front End Developer with over 10 years of experience building scalable, interactive web apps using React, Next.js, and TypeScript. I love crafting fast, user-friendly UIs with smooth CSS animations, transitions, and micro-interactions—like subtle hovers or snappy toggles—that bring designs to life. I’ve worked remotely with designers to turn complex ideas into pixel-perfect, performant interfaces, always chasing that sweet spot between clean code and a great user experience. I’m hooked on tough challenges and constantly leveling up my front-end skills.
+
+If interested, find me on LinkedIn: <a href="https://www.linkedin.com/in/danjguzman" target="_blank">https://www.linkedin.com/in/danjguzman</a>
+
+## About The Current Project
+
+Preview video focused on creating a smooth Mapbox experience: https://youtu.be/FG-YPWj59u0
 
 This is a mock-up of a Workforce Management platform—though it’s flexible enough to work for any industry—built as a demo project with React and Next.js to showcase my front-end coding skills. It focuses on crafting reusable components, managing data with a state manager like Redux Toolkit, and wrangling data from multiple sources—fetching, parsing, and blending it into clean, UI-ready states.
 
@@ -48,9 +54,3 @@ https://www.youtube.com/watch?v=L8ATQXBckb4
 Using CSS Animations, Transitions and JavaScript, this loader reacts to each file that's loaded into memory, and when complete, it transitions into the Login Screen.
 
 https://www.youtube.com/watch?v=H-QKZUdfoWY
-
-## About Daniel Guzman (available for hire)
-
-I am a Senior Front End Developer with over 10 years of experience building scalable, interactive web apps using React, Next.js, and TypeScript. I love crafting fast, user-friendly UIs with smooth CSS animations, transitions, and micro-interactions—like subtle hovers or snappy toggles—that bring designs to life. I’ve worked remotely with designers to turn complex ideas into pixel-perfect, performant interfaces, always chasing that sweet spot between clean code and a great user experience. I’m hooked on tough challenges and constantly leveling up my front-end skills.
-
-If interested, find me on LinkedIn: <a href="https://www.linkedin.com/in/danjguzman" target="_blank">https://www.linkedin.com/in/danjguzman</a>
