@@ -25,7 +25,7 @@ app.get('/:filePath(*)', (req, res) => {
     const filePath = req.params.filePath;
     const fullPath = join(__dirname, 'data', `${filePath}.json`); // Builds path like "data/(name).json"
 
-    /* Check File, Existance & Parse JSON Data */
+    /* Check File, Existence & Parse JSON Data */
     readFile(fullPath, 'utf8', (err, data) => {
         if (err) {
             res.status(500).send('Error reading file');
