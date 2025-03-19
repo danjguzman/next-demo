@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 /* Get Local Data */
-app.get('/:filePath(*)', (req, res) => {
+app.get('/:filePath(*)', (req, res) => { // I know it's not safe, just needed to route me to static data for frontend.
 
     /* Build File Paths */
     const filePath = req.params.filePath;
