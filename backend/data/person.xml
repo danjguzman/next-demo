@@ -1,0 +1,10 @@
+<root type="Testing" name="Test">
+    <person gender="Male">
+        <name title="Mr.">John</name>
+        <details>
+            <age>30</age>
+            <hobby>reading</hobby>
+            <hobby>gaming</hobby>
+        </details>
+    </person>
+</root>
