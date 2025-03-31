@@ -48,8 +48,7 @@ This demo includes some core features you’d typically find in platforms simila
 Screen shots of a Demo Veterinarian Mobile App, using real data, coded by me, not AI.
 
 <div style="text-align: center;">
-  <img src="vetapp-light.png" alt="Screenshot of the demo"> 
-  <img src="vetapp-dark.png" alt="Screenshot of the demo">
+  <img src="vetapp.png" alt="Screenshot of the demo"> 
 </div>
 
 <b>React Game Develpment Kit (in progress).</b> 
