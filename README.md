@@ -43,6 +43,15 @@ This demo includes some core features you’d typically find in platforms simila
 
 ## Other Project Demos Created By Me
 
+<b>React Next (in progress).</b>
+
+Screen shots of a Demo Veterinarian Mobile App, using real data, coded by me, not AI.
+
+<div style="text-align: center;">
+  <img src="vetapp-light.png" alt="Screenshot of the demo"> 
+  <img src="vetapp-dark.png" alt="Screenshot of the demo">
+</div>
+
 <b>React Game Develpment Kit (in progress).</b> 
 
 The focus is on creating a Desktop Application style UI in the web browser, which allows users to customize their workspace. Think Photoshop or Blender.
