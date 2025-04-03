@@ -43,7 +43,7 @@ This demo includes some core features you’d typically find in platforms simila
 
 ## Other Project Demos Created By Me
 
-<b>React Next (in progress).</b>
+<b>React Native (in progress).</b>
 
 Screen shots of a Demo Veterinarian Mobile App, using real data, coded by me, not AI.
 
