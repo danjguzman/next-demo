@@ -45,7 +45,7 @@ This demo includes some core features you’d typically find in platforms simila
 
 <b>React Native (in progress).</b>
 
-Screen shots of a Demo Veterinarian Mobile App, using real data, coded by me, not AI.
+Screen shots of a Demo Veterinarian Mobile App, using real data, coded by me, not AI (pre-agentic AI, would use AI now to rebuild).
 
 <div style="text-align: center;">
   <img src="vetapp.png" alt="Screenshot of the demo"> 
